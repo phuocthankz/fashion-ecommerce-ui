@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>THANHTHANKYOU | Thời Trang Cao Cấp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="topbar">
+            <div class="container">
+                <div class="top-left">
+                    <a href="#">Giao hàng miễn phí</a>
+                    <a href="#">Bộ sưu tập mới</a>
+                </div>
+                <div class="top-right">
+                    <a href="#" id="showLoginBtn">Tài khoản</a>
+                    <a href="#">Yêu thích</a>
+                    <a href="#">Giỏ hàng</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="container">
+                <div class="logo">THANH<span>THANKYOU</span></div>
+                <button class="menu-toggle" id="menuToggle"><i class="ri-menu-line"></i></i></button>
+                <nav class="nav" id="mainNav">
+                    <a href="#">Nữ</a>
+                    <a href="#">Nam</a>
+                    <a href="#">Bộ sưu tập</a>
+                    <a href="#">Blog</a>
+                </nav>
+                <div class="search-wrapper">
+                    <div class="search">
+                        <input type="text" id="searchInput" placeholder="Tìm kiếm sản phẩm...">
+                        <button id="searchBtn"><i class="ri-search-line"></i></button>
+                    </div>
+                </div>
+                <div class="actions">
+                    <a href="#" class="action" id="showLoginBtn2" aria-label="Đăng nhập"><i class="ri-user-3-line"></i><span>Đăng nhập</span></a>
+                    <a href="#" class="action" aria-label="Yêu thích"><i class="ri-heart-3-line"></i></a>
+                    <a href="#" class="action" aria-label="Giỏ hàng"><i class="ri-shopping-bag-3-line"></i></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="Slider" class="hero-slider">
+    <div class="slider-container">
+        <div class="slide active">
+            <img src="images/mau_anh_hien_thua.jpg" alt="Hero fashion" loading="lazy">
+            <div class="hero-overlay"></div>
+            <!-- SLIDE 1 -->
+            <div class="hero-content">
+                <div class="hero-sub">BỘ SƯU TẬP THU ĐÔNG 2025</div>
+                <h1 class="hero-title">Tinh giản cho những ngày chuyển mùa</h1>
+                <p class="hero-desc">Thiết kế mang tinh thần hiện đại với gam màu trầm và chất liệu cao cấp.</p>
+                <div class="hero-btns">
+                    <button class="btn btn--primary">Khám phá bộ sưu tập</button>
+                    <button class="btn btn--secondary">Xem Lookbook</button>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/mau_anh_truong_luc_nhuoc_1.jpg" alt="Hero fashion" loading="lazy">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-sub">XU HƯỚNG MỚI NHẤT</div>
+                <div class="hero-title">Tinh thần đường phố trong gam màu tối giản</div>
+                <div class="hero-desc">Tự do thể hiện cá tính với những thiết kế độc đáo.</div>
+                <div class="hero-btns">
+                    <button class="btn btn--primary">Khám phá bộ sưu tập</button>
+                    <button class="btn btn--secondary">Xem Lookbook</button>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/mau_anh_hien_thua_2.jpg" alt="Hero fashion" loading="lazy">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-sub">BỘ SƯU TẬP ĐẶC BIỆT</div>
+                <div class="hero-title">Minimalism - Tinh tế mọi khoảnh khắc</div>
+                <div class="hero-desc">Kiến tạo phong cách thanh lịch với những gam màu trung tính.</div>
+                <div class="hero-btns">
+                    <button class="btn btn--primary">Khám phá bộ sưu tập</button>
+                    <button class="btn btn--secondary">Xem Lookbook</button>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/mau_anh_jungkook.jpg" alt="Hero fashion" loading="lazy">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-sub">THỜI TRANG CÔNG SỞ</div>
+                <div class="hero-title">Thanh lịch trong nhịp sống hiện đại</div>
+                <div class="hero-desc">Nâng tầm phong cách làm việc với chất liệu cao cấp.</div>
+                <div class="hero-btns">
+                    <button class="btn btn--primary">Khám phá bộ sưu tập</button>
+                    <button class="btn btn--secondary">Xem Lookbook</button>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/mau_anh_truong_luc_nhuoc_1.jpg" alt="Hero fashion" loading="lazy">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-sub">DẠ HỘI & TIỆC TỐI</div>
+                <div class="hero-title">Sự cuốn hút của những buổi tối thành thị</div>
+                <div class="hero-desc">Thiết kế tinh tế dành riêng cho bạn.</div>
+                <div class="hero-btns">
+                    <button class="btn btn--primary">Khám phá bộ sưu tập</button>
+                    <button class="btn btn--secondary">Xem Lookbook</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dot-container">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+    <button class="slider-prev" aria-label="Slide trước"><i class="ri-arrow-left-s-line"></i></button>
+    <button class="slider-next" aria-label="Slide tiếp"><i class="ri-arrow-right-s-line"></i></button>
+</section>
+</body>
+<script src="script.js"></script>
+</html>
